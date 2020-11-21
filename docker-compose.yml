@@ -3,7 +3,7 @@ services:
   web:
     build: .
     ports:
-      - "3100:3100"
+      - "80:1337"
     depends_on:
       - "meili"
     command: []
@@ -11,6 +11,6 @@ services:
   meili:
     image: getmeili/meilisearch
     ports:
-      - "7700:7700"
+      - "81:7700"
     volumes:
       - ./data.ms:/data.ms
