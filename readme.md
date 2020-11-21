@@ -69,4 +69,4 @@ Facet filters are currently set for doc_id, client_id, and doc_type for all indi
 ## MeiliSearch
 Meilisearch can be accessed at http://localhost:81 for both their web interface and API requests
 
-Git Actions
+Git Action
